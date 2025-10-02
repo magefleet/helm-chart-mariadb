@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - apiVersion: v2
+    appVersion: "10.4"
+    created: "2025-10-02T16:44:49.515087775+02:00"
+    description: A Helm chart for MariaDB 10.4
+    digest: 9a85707ede7b950f72187c3bcf6f4b967322cb571c757e6000c447671964b1a8
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    maintainers:
+    - name: Admin
+    name: mariadb
+    type: application
+    urls:
+    - https://magefleet.github.io/helm-chart-mariadb/mariadb-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-02T16:44:49.514062444+02:00"

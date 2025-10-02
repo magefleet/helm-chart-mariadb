@@ -1,0 +1,4 @@
+repositoryID: helm-chart-mariadb
+owners:
+  - name: magefleet
+    email: info@magefleet.com
