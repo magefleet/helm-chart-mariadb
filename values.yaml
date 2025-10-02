@@ -1,0 +1,38 @@
+replicaCount: 1
+
+image:
+  repository: mariadb
+  tag: "10.4"
+  pullPolicy: IfNotPresent
+
+mariadb:
+  fullnameOverride: mysql
+  nameOverride: mysql
+  rootPassword: "changeme"
+  database: "magento"
+  user: "magento"
+  password: "magento"
+
+service:
+  type: ClusterIP
+  port: 3306
+
+persistence:
+  enabled: true
+  storageClass: ""
+  accessMode: ReadWriteOnce
+  size: 10Gi
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 500m
+    memory: 512Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
