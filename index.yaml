@@ -3,7 +3,7 @@ entries:
   mariadb:
   - apiVersion: v2
     appVersion: "10.4"
-    created: "2025-10-03T12:21:20.152642132+02:00"
+    created: "2025-10-03T12:53:02.021811298+02:00"
     description: A Helm chart for MariaDB 10.4
     digest: 42ffa20018b03896e0786b60ebc4eb39ac4b4899cd496a66ea20608276f20dcb
     home: https://mariadb.org
@@ -18,11 +18,11 @@ entries:
     - https://github.com/MariaDB/server
     type: application
     urls:
-    - https://ramingo.github.io/mariadb-chart/mariadb-0.1.1.tgz
+    - https://magefleet.github.io/helm-chart-mariadb/mariadb-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: "10.4"
-    created: "2025-10-03T12:21:20.151724831+02:00"
+    created: "2025-10-03T12:53:02.020749333+02:00"
     description: A Helm chart for MariaDB 10.4
     digest: 9a85707ede7b950f72187c3bcf6f4b967322cb571c757e6000c447671964b1a8
     keywords:
@@ -34,6 +34,6 @@ entries:
     name: mariadb
     type: application
     urls:
-    - https://ramingo.github.io/mariadb-chart/mariadb-0.1.0.tgz
+    - https://magefleet.github.io/helm-chart-mariadb/mariadb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-03T12:21:20.150789699+02:00"
+generated: "2025-10-03T12:53:02.019830626+02:00"
