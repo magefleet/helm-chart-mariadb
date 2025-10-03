@@ -20,6 +20,26 @@ To install the chart with the release name `my-mariadb`:
 helm install my-mariadb .
 ```
 
+## Upgrading the Chart
+
+To upgrade an existing release to a new version:
+
+```bash
+helm upgrade my-mariadb .
+```
+
+To upgrade with specific values:
+
+```bash
+helm upgrade my-mariadb . -f values.yaml
+```
+
+To see what would change before upgrading:
+
+```bash
+helm diff upgrade my-mariadb .
+```
+
 ## Uninstalling the Chart
 
 To uninstall/delete the `my-mariadb` deployment:
