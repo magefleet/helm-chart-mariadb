@@ -11,7 +11,16 @@ mariadb:
   rootPassword: "changeme"
   database: "magento"
   user: "magento"
-  password: "magento"
+  password: "test1234"
+
+# Authentication configuration
+auth:
+  # Use existing secret for passwords (optional)
+  # If set, the mariadb.password and mariadb.rootPassword will be ignored
+  existingSecret: ""
+  # Keys in the existing secret
+  existingSecretPasswordKey: "mariadb-password"
+  existingSecretRootPasswordKey: "mariadb-root-password"
 
 service:
   type: ClusterIP
