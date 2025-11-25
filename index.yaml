@@ -2,8 +2,46 @@ apiVersion: v1
 entries:
   mariadb:
   - apiVersion: v2
+    appVersion: "10.11"
+    created: "2025-11-25T15:49:05.398713288+01:00"
+    description: A Helm chart for MariaDB 10.11
+    digest: e0446f5b30cf3fb71add82501f2c890470c1247035e55c170ff6ccb5e9f4f144
+    home: https://mariadb.org
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    maintainers:
+    - name: Admin
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    type: application
+    urls:
+    - https://magefleet.github.io/helm-chart-mariadb/mariadb-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: "10.6"
+    created: "2025-11-25T15:49:05.394262544+01:00"
+    description: A Helm chart for MariaDB 10.6
+    digest: ea888b19057dc420fd7fdc5e3494391b03ec92c61f990e15b362618e91955994
+    home: https://mariadb.org
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    maintainers:
+    - name: Admin
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    type: application
+    urls:
+    - https://magefleet.github.io/helm-chart-mariadb/mariadb-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: "10.4"
-    created: "2025-11-09T15:36:35.11945286+01:00"
+    created: "2025-11-25T15:49:05.391124113+01:00"
     description: A Helm chart for MariaDB 10.4
     digest: 6d5c13126e3a82b290ea86f2b7112cd09e327cafe08635e83cdb988b1c52e360
     home: https://mariadb.org
@@ -22,7 +60,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: "10.4"
-    created: "2025-11-09T15:36:35.117876885+01:00"
+    created: "2025-11-25T15:49:05.389484481+01:00"
     description: A Helm chart for MariaDB 10.4
     digest: 42ffa20018b03896e0786b60ebc4eb39ac4b4899cd496a66ea20608276f20dcb
     home: https://mariadb.org
@@ -41,7 +79,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "10.4"
-    created: "2025-11-09T15:36:35.116956642+01:00"
+    created: "2025-11-25T15:49:05.388547755+01:00"
     description: A Helm chart for MariaDB 10.4
     digest: 9a85707ede7b950f72187c3bcf6f4b967322cb571c757e6000c447671964b1a8
     keywords:
@@ -55,4 +93,4 @@ entries:
     urls:
     - https://magefleet.github.io/helm-chart-mariadb/mariadb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-09T15:36:35.11629045+01:00"
+generated: "2025-11-25T15:49:05.387733008+01:00"
