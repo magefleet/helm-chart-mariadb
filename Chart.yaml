@@ -2,7 +2,7 @@ apiVersion: v2
 name: mariadb
 description: A Helm chart for MariaDB 10.6
 type: application
-version: 0.2.0
+version: 0.3.0
 appVersion: "10.6"
 keywords:
   - mariadb
