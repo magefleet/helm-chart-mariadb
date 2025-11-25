@@ -1,6 +1,6 @@
 # MariaDB Helm Chart
 
-A Helm chart for deploying MariaDB 10.4 on Kubernetes.
+A Helm chart for deploying MariaDB 10.11 on Kubernetes.
 
 ## Introduction
 
@@ -56,7 +56,7 @@ The following table lists the configurable parameters of the MariaDB chart and t
 |-----------|-------------|---------|
 | `replicaCount` | Number of replicas | `1` |
 | `image.repository` | MariaDB image repository | `mariadb` |
-| `image.tag` | MariaDB image tag | `10.4` |
+| `image.tag` | MariaDB image tag | `10.11` |
 | `image.pullPolicy` | Image pull policy | `IfNotPresent` |
 | `mariadb.rootPassword` | Root password for MariaDB | `changeme` |
 | `mariadb.database` | Database name to create | `magento` |
@@ -92,3 +92,23 @@ helm install my-mariadb . -f values.yaml
 The MariaDB image stores data at the `/var/lib/mysql` path of the container.
 
 By default, the chart mounts a Persistent Volume at this location. The volume is created using dynamic volume provisioning.
+
+## Changelog
+
+### v0.4.0
+- Updated MariaDB to version 10.11 (LTS)
+- Added GitHub Actions workflow for automated releases
+- Released Helm chart packages for versions 0.3.0 and 0.4.0
+
+### v0.3.0
+- Updated MariaDB to version 10.6
+
+### v0.2.0
+- Added support for ExternalSecrets for secure credential management
+- Various configuration improvements
+
+### v0.1.0
+- Initial release
+- MariaDB 10.4 deployment
+- Persistent storage support
+- Basic configuration options
